@@ -11,10 +11,12 @@ Fetch user data from a public API
 View users in a structured card layout
 Search users by name in real time
 Handle loading and error states properly
+
 🛠️ Tech Stack
 React (Vite)
 JavaScript (ES6+)
 CSS (No UI libraries used)
+
 📂 Folder Structure
 fetch-users-app/
 │── src/
@@ -26,6 +28,7 @@ fetch-users-app/
 │   │── App.jsx
 │   │── App.css
 │   │── main.jsx
+
 ⚙️ Features
 ✅ Fetch users from API on page load
 ✅ Display users in responsive grid layout
@@ -33,6 +36,7 @@ fetch-users-app/
 ✅ Error handling with Retry button
 ✅ Search filter (no additional API calls)
 ✅ Clean and readable UI
+
 🧠 Concepts Used
 React Functional Components
 useState Hook
@@ -40,6 +44,7 @@ useEffect Hook
 API Integration (Fetch API)
 Conditional Rendering
 Component Reusability
+
 ▶️ How to Run the Project
 Clone the repository:
 git clone https://github.com/your-username/fetch-users-app.git
@@ -49,6 +54,7 @@ Install dependencies:
 npm install
 Start the development server:
 npm run dev
+
 📸 Sample Output
 User Directory
 
@@ -63,14 +69,13 @@ Company: Romaguera-Crona
 Loading → shows "Loading..."
 Error → shows error message with Retry button
 Search → filters users in real time
+
 ✅ Evaluation Criteria Met
 ✔ useEffect runs only once on mount
 ✔ Handles loading, error, and success states
 ✔ Search works without new API calls
 ✔ No API key required
 ✔ No console errors
-📌 Author
-Your Name
-⭐ Notes
 
-This project is built using pure React and CSS without any UI libraries to demonstrate strong fundamentals.
+📌 Author
+Suresh
